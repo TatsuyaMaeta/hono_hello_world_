@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.21.0",
+    "hono": "^3.11.4"
+  },
+  "devDependencies": {
+    "vercel": "^32.4.1"
+  },
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
