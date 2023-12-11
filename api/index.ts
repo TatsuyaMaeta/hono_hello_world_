@@ -21,7 +21,11 @@ app.get('/api/hello', (c) => {
   return c.json({ message: 'Hello from Hooo!!!!!' })
 })
 
-export default (req) => app.request(req)
+app.get('/api/vercel', (c) => {
+  return c.json({ message: 'API in Vercel' })
+})
+
+export default (req:any) => app.request(req)
 
 export const config = {
   runtime: 'experimental-edge',
