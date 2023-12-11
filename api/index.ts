@@ -11,13 +11,14 @@
 
 // export default handle(app)
 
+
 import { NextRequest } from 'next/server'
 import { Hono } from 'hono'
 
 const app = new Hono()
 
 app.get('/api/hello', (c) => {
-  return c.json({ message: 'Hello from Hooo' })
+  return c.json({ message: 'Hello from Hooo!!!!!' })
 })
 
 export default (req) => app.request(req)
