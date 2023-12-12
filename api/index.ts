@@ -12,7 +12,10 @@
 // export default handle(app)
 
 
-import { NextRequest } from 'next/server'
+// ===========================================
+// https://zenn.dev/yusukebe/articles/47dea431a00752
+
+// import { NextRequest } from 'next/server'
 import { Hono } from 'hono'
 
 const app = new Hono()
